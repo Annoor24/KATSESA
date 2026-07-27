@@ -1,0 +1,30 @@
+:root {
+  /* Brand Colors */
+  --katsesa-green: #00703c;
+  --katsesa-green-dark: #004d2a;
+  --katsesa-green-light: #d4fce1;
+
+  --gear-orange: #f7941d;
+  --gear-orange-dark: #cc7a18;
+
+  /* Neutral Palette */
+  --bg-color: #06140d; /* Dark green background for premium feel */
+  --text-primary: #ffffff;
+  --text-secondary: #b1b8c0;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --glass-blur: blur(12px);
+
+  /* Typography */
+  --font-main: "Inter", system-ui, -apple-system, sans-serif;
+  --font-heading: "Outfit", sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+}

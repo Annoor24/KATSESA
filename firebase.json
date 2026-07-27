@@ -1,0 +1,19 @@
+{
+  "firestore": {
+    "rules": "Backend/firestore.rules"
+  },
+  "storage": {
+    "rules": "Backend/storage.rules"
+  },
+  "hosting": {
+    "site": "katsesa-portal",
+    "public": "Frontend/dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
